@@ -1,0 +1,109 @@
+.topcontainerx{
+    /* background: #2b8e56; */
+    
+    /* background-image: url('https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg'); */
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg');
+  
+    background-attachment: fixed;
+    color: aliceblue;
+    font-weight: bold;  
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .headrankmeone{
+    font-weight: 350;
+   
+  }
+  .inputbox{
+    width: 80%;
+  }
+  .wordCount{
+    margin-top: -17px;
+    /* background-color: aqua; */
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+  .copyButton{
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 5px;
+    
+  }
+  .spinner-border{
+    width: 25px;
+    height: 25px;
+  }
+  .iframeyt{
+    width: 100%;
+  }
+  /* Width of the scrollbar */
+.textarea-custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Adjust the width */
+}
+
+/* Background of the scrollbar track */
+.textarea-custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+  border-radius: 10px;  /* Rounded corners for the track */
+}
+
+/* Scrollbar thumb (the draggable part) */
+.textarea-custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #294940; /* Thumb color */
+  border-radius: 10px;  /* Rounded corners for the thumb */
+  border: 2px solid #f1f1f1; /* Space around the thumb */
+}
+
+/* Hover effect for the scrollbar thumb */
+.textarea-custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #1e3330; /* Color when hovered */
+}
+
+  @media (max-width: 762px){
+    .iframeyt{
+      width: auto;
+    }
+    .iframediv{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .iframetitle{
+      text-align: center;
+      padding-top: 1rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .inputbox{
+      width: 100%;
+    }  
+    .headrankmeone{
+      font-size: 30px;
+      font-weight: 400;
+    }
+    .headdesc{
+      
+      font-size: 15px;
+    }
+    .topcontainerx{
+      height: auto;
+    }
+    .infoText{
+      font-size: small;
+    }
+    .infoCon{
+      padding-bottom: 5rem;
+    }
+  }

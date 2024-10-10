@@ -1,0 +1,25 @@
+/* Full-Screen Modal Styling */
+.modal-fullscreen {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+    
+  }
+  
+  .modal-fullscreen .modal-content {
+    height: 100%;
+    border: none;
+  }
+  
+  .modal-fullscreen .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .custom-opacity-modal .modal-content {
+    opacity: 0.9; /* Adjust this value between 0 and 1 to reduce opacity */
+  }
+  

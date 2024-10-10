@@ -1,0 +1,59 @@
+/* Initial state: hide the description */
+body{
+    background-color:  #fbfbfb;
+}
+.card-body{
+    background-color:  #ffffff;
+    border-radius: 30px;
+}
+.card-text{
+    color: #494e52;
+}
+.card-description {
+    display: none; /* Hide description */
+    opacity: 0; /* Fully transparent */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  }
+  
+  @media (max-width: 500px) {
+     .card-text {
+      font-size: small;
+   } }
+  
+  /* Card hover effect */
+  .hover-card:hover {
+    border: 1px solid #6c757d; /* Grey border on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+    transition: 0.3s; /* Smooth transition */
+  }
+  
+  /* Show the description on hover */
+  .hover-card:hover .card-description {
+    display: block; /* Show description */
+    opacity: 1; /* Fully opaque */
+  }
+
+  .topcontainer{
+    /* background: #2b8e56; */
+    
+    /* background-image: url('https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg'); */
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg');
+  
+    background-attachment: fixed;
+    color: aliceblue;
+    font-weight: bold;  
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .headrankmeone{
+    font-weight: 350;
+  }
+  
+  
