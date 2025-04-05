@@ -133,7 +133,7 @@ export default function YtTagGenerator() {
     // setResponseText('Analyzing your content...');
     setTimeout(async () => {
       try {
-        const response = await fetch("http://localhost:4000/seoyttgrmo", {
+        const response = await fetch("http://localhost:4000/midprompt", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -190,9 +190,9 @@ export default function YtTagGenerator() {
       {/* Hero Section */}
       <section className="topcontainerx text-center py-4">
         <div className="container">
-          <h1 className="display-3 headrankmeone">Youtube Tag Generator</h1>
+          <h1 className="display-3 headrankmeone">Midjourney Prompt</h1>
           <p className="lead headdesc">
-          Generate high quality Youtube tags for rank your video.
+          Visualize your idea to image.
           </p>
         </div>
       </section>

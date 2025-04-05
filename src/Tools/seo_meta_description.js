@@ -209,13 +209,13 @@ export default function SeoMetaDescription() {
           <div className="col-md-3 order-2 order-md-1">
             <h5 className="text-center">Related Tools</h5>
             <hr />
-            <a href="/" style={{ textDecoration: "none" }}>
+            <a href="/seo-meta-description-generator" style={{ textDecoration: "none" }}>
               <ToolCard
                 title="SEO Meta Description 📜"
                 description="Create compelling meta descriptions to enhance search visibility."
               />
             </a>
-            <a href="/" style={{ textDecoration: "none" }}>
+            <a href="/topical-map-generator" style={{ textDecoration: "none" }}>
               <ToolCard
                 title="Topical Map Generator 📑"
                 description="Create a topical map to organize your content strategy efficiently."
@@ -307,18 +307,7 @@ export default function SeoMetaDescription() {
             <div>{/* ad space */}</div>
 
             {/* Info Section */}
-            <div className="infoCon" style={styles.infoText}>
-              <p className="infoText">
-                "Optimize your web content with our SEO Meta Description Tool. Enter
-                your topic / keywords to get customized meta descriptions that enhance SEO and
-                attract clicks.{" "}
-                <span style={{ fontWeight: "500" }}>
-                  If you see a warning, the content may be inappropriate or not
-                  suitable for SEO. Please try again.
-                </span>
-                "
-              </p>
-            </div>
+            
           </div>
 
           {/* Right Tools Column */}
@@ -329,13 +318,13 @@ export default function SeoMetaDescription() {
             <div className="iframediv">
               <iframe
                 className="iframeyt"
-                src="https://www.youtube.com/embed/0KhFdIlMEG4"
+                src="https://www.youtube.com/embed/VK-2j5CNsvM?si=T3nrSowVNkVTkFqS"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 title="YouTube video"
               ></iframe>
             </div>
             <p className="iframetitle" style={{ fontWeight: "bold" }}>
-              How To Unlock Canva Pro for Free 2024 (Step By Step)
+            Full Stack Instagram Clone with Laravel and MongoDB – Tutorial
             </p>
           </div>
         </div>

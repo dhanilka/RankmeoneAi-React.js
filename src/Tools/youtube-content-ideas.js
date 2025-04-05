@@ -133,7 +133,7 @@ export default function YtTagGenerator() {
     // setResponseText('Analyzing your content...');
     setTimeout(async () => {
       try {
-        const response = await fetch("http://localhost:4000/seoyttgrmo", {
+        const response = await fetch("http://localhost:4000/ytci", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -306,7 +306,7 @@ export default function YtTagGenerator() {
             <div>{/* ad space */}</div>
 
             {/* Info Section */}
-           
+            
           </div>
 
           {/* Right Tools Column */}

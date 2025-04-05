@@ -133,7 +133,7 @@ export default function YtContentIdeas() {
     // setResponseText('Analyzing your content...');
     setTimeout(async () => {
       try {
-        const response = await fetch("http://localhost:4000/seoyttgrmo", {
+        const response = await fetch("http://localhost:4000/ytci", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -192,7 +192,7 @@ export default function YtContentIdeas() {
         <div className="container">
           <h1 className="display-3 headrankmeone">Youtube Content Ideas</h1>
           <p className="lead headdesc">
-          Generate high quality Youtube tags for rank your video.
+            Generate engaging and relevant content ideas for your YouTube channel
           </p>
         </div>
       </section>
@@ -208,13 +208,13 @@ export default function YtContentIdeas() {
           <div className="col-md-3 order-2 order-md-1">
             <h5 className="text-center">Related Tools</h5>
             <hr />
-            <a href="/" style={{ textDecoration: "none" }}>
+            <a href="/seo-meta-description-generator" style={{ textDecoration: "none" }}>
               <ToolCard
                 title="SEO Meta Description 📜"
                 description="Create compelling meta descriptions to enhance search visibility."
               />
             </a>
-            <a href="/" style={{ textDecoration: "none" }}>
+            <a href="/topical-map-generator" style={{ textDecoration: "none" }}>
               <ToolCard
                 title="Topical Map Generator 📑"
                 description="Create a topical map to organize your content strategy efficiently."
@@ -306,17 +306,7 @@ export default function YtContentIdeas() {
             <div>{/* ad space */}</div>
 
             {/* Info Section */}
-            <div className="infoCon" style={styles.infoText}>
-            <p className="infoText">
-  "Boost your SEO strategy with our Sub Keyword Generator. Enter your main keywords to generate a list of targeted sub-keywords that enhance content relevance and improve search rankings.{" "}
-  <span style={{ fontWeight: "500" }}>
-  If you see a warning, the content may be inappropriate or not
-  suitable for SEO. Please try again.
-  </span>
-  "
-</p>
-
-            </div>
+            
           </div>
 
           {/* Right Tools Column */}
@@ -327,13 +317,13 @@ export default function YtContentIdeas() {
             <div className="iframediv">
               <iframe
                 className="iframeyt"
-                src="https://www.youtube.com/embed/0KhFdIlMEG4"
+                src="https://www.youtube.com/embed/VK-2j5CNsvM?si=T3nrSowVNkVTkFqS"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 title="YouTube video"
               ></iframe>
             </div>
             <p className="iframetitle" style={{ fontWeight: "bold" }}>
-              How To Unlock Canva Pro for Free 2024 (Step By Step)
+            Full Stack Instagram Clone with Laravel and MongoDB – Tutorial
             </p>
           </div>
         </div>

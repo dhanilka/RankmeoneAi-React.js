@@ -133,7 +133,7 @@ export default function YtTagGenerator() {
     // setResponseText('Analyzing your content...');
     setTimeout(async () => {
       try {
-        const response = await fetch("http://localhost:4000/seoyttgrmo", {
+        const response = await fetch("http://localhost:4000/fivertag", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -190,9 +190,9 @@ export default function YtTagGenerator() {
       {/* Hero Section */}
       <section className="topcontainerx text-center py-4">
         <div className="container">
-          <h1 className="display-3 headrankmeone">Youtube Tag Generator</h1>
+          <h1 className="display-3 headrankmeone">Fiver Tag Generator</h1>
           <p className="lead headdesc">
-          Generate high quality Youtube tags for rank your video.
+          Generate high quality Fiver tags for rank your work.
           </p>
         </div>
       </section>
@@ -306,7 +306,7 @@ export default function YtTagGenerator() {
             <div>{/* ad space */}</div>
 
             {/* Info Section */}
-           
+            
           </div>
 
           {/* Right Tools Column */}
